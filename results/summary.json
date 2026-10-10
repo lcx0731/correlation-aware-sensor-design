@@ -1,0 +1,897 @@
+{
+  "data": "Fully synthetic, specified in source; no observations from real sensors.",
+  "seed": 20261010,
+  "replicates": 5000,
+  "budgets": [
+    2,
+    4,
+    6
+  ],
+  "candidate_locations": [
+    -1.0,
+    -0.85,
+    -0.65,
+    -0.45,
+    -0.25,
+    -0.05,
+    0.05,
+    0.25,
+    0.45,
+    0.65,
+    0.85,
+    1.0
+  ],
+  "noise_groups": [
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2,
+    0,
+    1,
+    2
+  ],
+  "features": [
+    [
+      1.0,
+      -1.0,
+      1.0
+    ],
+    [
+      1.0,
+      -0.85,
+      0.5837499999999998
+    ],
+    [
+      1.0,
+      -0.65,
+      0.13375000000000004
+    ],
+    [
+      1.0,
+      -0.45,
+      -0.19624999999999998
+    ],
+    [
+      1.0,
+      -0.25,
+      -0.40625
+    ],
+    [
+      1.0,
+      -0.05,
+      -0.49625
+    ],
+    [
+      1.0,
+      0.05,
+      -0.49625
+    ],
+    [
+      1.0,
+      0.25,
+      -0.40625
+    ],
+    [
+      1.0,
+      0.45,
+      -0.19624999999999998
+    ],
+    [
+      1.0,
+      0.65,
+      0.13375000000000004
+    ],
+    [
+      1.0,
+      0.85,
+      0.5837499999999998
+    ],
+    [
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "prior_covariance": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.5,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.25
+    ]
+  ],
+  "correlated_noise_covariance": [
+    [
+      0.26,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.2644,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.2696,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25
+    ],
+    [
+      0.25,
+      0.0,
+      0.0,
+      0.2756,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.26,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.2644,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25
+    ],
+    [
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.2696,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.2756,
+      0.0,
+      0.0,
+      0.25,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.26,
+      0.0,
+      0.0,
+      0.25
+    ],
+    [
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.2644,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.2696,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.25,
+      0.0,
+      0.0,
+      0.2756
+    ]
+  ],
+  "grid_points": 101,
+  "design_results": [
+    {
+      "scenario": "independent",
+      "budget": 2,
+      "method": "exact",
+      "sensors": [
+        0,
+        11
+      ],
+      "locations": [
+        -1.0,
+        1.0
+      ],
+      "noise_groups": [
+        0,
+        2
+      ],
+      "information_nats_under_true_noise": 1.945598472573376,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.3523164215120394,
+      "max_latent_field_variance": 0.5092531795781994,
+      "uniform_subset_mean_information_nats": 1.433245185126652,
+      "independent_noise_optimum_upper_bound_nats": 3.0104754489355754
+    },
+    {
+      "scenario": "independent",
+      "budget": 2,
+      "method": "aware_greedy",
+      "sensors": [
+        0,
+        11
+      ],
+      "locations": [
+        -1.0,
+        1.0
+      ],
+      "noise_groups": [
+        0,
+        2
+      ],
+      "information_nats_under_true_noise": 1.945598472573376,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.3523164215120394,
+      "max_latent_field_variance": 0.5092531795781994,
+      "uniform_subset_mean_information_nats": 1.433245185126652,
+      "independent_noise_optimum_upper_bound_nats": 3.0104754489355754
+    },
+    {
+      "scenario": "independent",
+      "budget": 2,
+      "method": "diagonal_greedy",
+      "sensors": [
+        0,
+        11
+      ],
+      "locations": [
+        -1.0,
+        1.0
+      ],
+      "noise_groups": [
+        0,
+        2
+      ],
+      "information_nats_under_true_noise": 1.945598472573376,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.3523164215120394,
+      "max_latent_field_variance": 0.5092531795781994,
+      "uniform_subset_mean_information_nats": 1.433245185126652,
+      "independent_noise_optimum_upper_bound_nats": 3.0104754489355754
+    },
+    {
+      "scenario": "independent",
+      "budget": 4,
+      "method": "exact",
+      "sensors": [
+        0,
+        5,
+        6,
+        11
+      ],
+      "locations": [
+        -1.0,
+        -0.05,
+        0.05,
+        1.0
+      ],
+      "noise_groups": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "information_nats_under_true_noise": 2.7308000284249276,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.11929440413286321,
+      "max_latent_field_variance": 0.2201572100131426,
+      "uniform_subset_mean_information_nats": 2.2183059734899127,
+      "independent_noise_optimum_upper_bound_nats": 3.5129189994876215
+    },
+    {
+      "scenario": "independent",
+      "budget": 4,
+      "method": "aware_greedy",
+      "sensors": [
+        0,
+        11,
+        5,
+        6
+      ],
+      "locations": [
+        -1.0,
+        1.0,
+        -0.05,
+        0.05
+      ],
+      "noise_groups": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "information_nats_under_true_noise": 2.7308000284249276,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.11929440413286321,
+      "max_latent_field_variance": 0.22015721001314265,
+      "uniform_subset_mean_information_nats": 2.2183059734899127,
+      "independent_noise_optimum_upper_bound_nats": 3.5129189994876215
+    },
+    {
+      "scenario": "independent",
+      "budget": 4,
+      "method": "diagonal_greedy",
+      "sensors": [
+        0,
+        11,
+        5,
+        6
+      ],
+      "locations": [
+        -1.0,
+        1.0,
+        -0.05,
+        0.05
+      ],
+      "noise_groups": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "information_nats_under_true_noise": 2.7308000284249276,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.11929440413286321,
+      "max_latent_field_variance": 0.22015721001314265,
+      "uniform_subset_mean_information_nats": 2.2183059734899127,
+      "independent_noise_optimum_upper_bound_nats": 3.5129189994876215
+    },
+    {
+      "scenario": "independent",
+      "budget": 6,
+      "method": "exact",
+      "sensors": [
+        0,
+        1,
+        5,
+        6,
+        10,
+        11
+      ],
+      "locations": [
+        -1.0,
+        -0.85,
+        -0.05,
+        0.05,
+        0.85,
+        1.0
+      ],
+      "noise_groups": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "information_nats_under_true_noise": 3.173133530495608,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.0900682287181657,
+      "max_latent_field_variance": 0.14512844968571045,
+      "uniform_subset_mean_information_nats": 2.769182867132891,
+      "independent_noise_optimum_upper_bound_nats": 3.7909479481448263
+    },
+    {
+      "scenario": "independent",
+      "budget": 6,
+      "method": "aware_greedy",
+      "sensors": [
+        0,
+        11,
+        5,
+        6,
+        10,
+        1
+      ],
+      "locations": [
+        -1.0,
+        1.0,
+        -0.05,
+        0.05,
+        0.85,
+        -0.85
+      ],
+      "noise_groups": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        1
+      ],
+      "information_nats_under_true_noise": 3.173133530495608,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.0900682287181657,
+      "max_latent_field_variance": 0.14512844968571045,
+      "uniform_subset_mean_information_nats": 2.769182867132891,
+      "independent_noise_optimum_upper_bound_nats": 3.7909479481448263
+    },
+    {
+      "scenario": "independent",
+      "budget": 6,
+      "method": "diagonal_greedy",
+      "sensors": [
+        0,
+        11,
+        5,
+        6,
+        10,
+        1
+      ],
+      "locations": [
+        -1.0,
+        1.0,
+        -0.05,
+        0.05,
+        0.85,
+        -0.85
+      ],
+      "noise_groups": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        1
+      ],
+      "information_nats_under_true_noise": 3.173133530495608,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.0900682287181657,
+      "max_latent_field_variance": 0.14512844968571045,
+      "uniform_subset_mean_information_nats": 2.769182867132891,
+      "independent_noise_optimum_upper_bound_nats": 3.7909479481448263
+    },
+    {
+      "scenario": "correlated",
+      "budget": 2,
+      "method": "exact",
+      "sensors": [
+        0,
+        9
+      ],
+      "locations": [
+        -1.0,
+        0.65
+      ],
+      "noise_groups": [
+        0,
+        0
+      ],
+      "information_nats_under_true_noise": 2.8985561097998422,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.2996380205526209,
+      "max_latent_field_variance": 0.49114642314933665,
+      "uniform_subset_mean_information_nats": 1.6366662611036524,
+      "independent_noise_optimum_upper_bound_nats": null
+    },
+    {
+      "scenario": "correlated",
+      "budget": 2,
+      "method": "aware_greedy",
+      "sensors": [
+        0,
+        9
+      ],
+      "locations": [
+        -1.0,
+        0.65
+      ],
+      "noise_groups": [
+        0,
+        0
+      ],
+      "information_nats_under_true_noise": 2.8985561097998422,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.2996380205526209,
+      "max_latent_field_variance": 0.49114642314933665,
+      "uniform_subset_mean_information_nats": 1.6366662611036524,
+      "independent_noise_optimum_upper_bound_nats": null
+    },
+    {
+      "scenario": "correlated",
+      "budget": 2,
+      "method": "diagonal_greedy",
+      "sensors": [
+        0,
+        11
+      ],
+      "locations": [
+        -1.0,
+        1.0
+      ],
+      "noise_groups": [
+        0,
+        2
+      ],
+      "information_nats_under_true_noise": 1.945598472573376,
+      "exact_optimal_gap_nats": 0.9529576372264663,
+      "mean_latent_field_variance": 0.3523164215120394,
+      "max_latent_field_variance": 0.5092531795781994,
+      "uniform_subset_mean_information_nats": 1.6366662611036524,
+      "independent_noise_optimum_upper_bound_nats": null
+    },
+    {
+      "scenario": "correlated",
+      "budget": 4,
+      "method": "exact",
+      "sensors": [
+        0,
+        5,
+        9,
+        11
+      ],
+      "locations": [
+        -1.0,
+        -0.05,
+        0.65,
+        1.0
+      ],
+      "noise_groups": [
+        0,
+        2,
+        0,
+        2
+      ],
+      "information_nats_under_true_noise": 4.766100853484097,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.11988904820512387,
+      "max_latent_field_variance": 0.1289900643392432,
+      "uniform_subset_mean_information_nats": 3.213145642209428,
+      "independent_noise_optimum_upper_bound_nats": null
+    },
+    {
+      "scenario": "correlated",
+      "budget": 4,
+      "method": "aware_greedy",
+      "sensors": [
+        0,
+        9,
+        6,
+        11
+      ],
+      "locations": [
+        -1.0,
+        0.65,
+        0.05,
+        1.0
+      ],
+      "noise_groups": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "information_nats_under_true_noise": 4.31086073439206,
+      "exact_optimal_gap_nats": 0.45524011909203743,
+      "mean_latent_field_variance": 0.14253713224557427,
+      "max_latent_field_variance": 0.16208670678643153,
+      "uniform_subset_mean_information_nats": 3.213145642209428,
+      "independent_noise_optimum_upper_bound_nats": null
+    },
+    {
+      "scenario": "correlated",
+      "budget": 4,
+      "method": "diagonal_greedy",
+      "sensors": [
+        0,
+        11,
+        5,
+        6
+      ],
+      "locations": [
+        -1.0,
+        1.0,
+        -0.05,
+        0.05
+      ],
+      "noise_groups": [
+        0,
+        2,
+        2,
+        0
+      ],
+      "information_nats_under_true_noise": 4.604587882368101,
+      "exact_optimal_gap_nats": 0.1615129711159966,
+      "mean_latent_field_variance": 0.12145162255713214,
+      "max_latent_field_variance": 0.1408498352068159,
+      "uniform_subset_mean_information_nats": 3.213145642209428,
+      "independent_noise_optimum_upper_bound_nats": null
+    },
+    {
+      "scenario": "correlated",
+      "budget": 6,
+      "method": "exact",
+      "sensors": [
+        0,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "locations": [
+        -1.0,
+        -0.25,
+        -0.05,
+        0.65,
+        0.85,
+        1.0
+      ],
+      "noise_groups": [
+        0,
+        1,
+        2,
+        0,
+        1,
+        2
+      ],
+      "information_nats_under_true_noise": 5.242233463425955,
+      "exact_optimal_gap_nats": 0.0,
+      "mean_latent_field_variance": 0.08280006146853573,
+      "max_latent_field_variance": 0.09147987792638415,
+      "uniform_subset_mean_information_nats": 4.383159121332377,
+      "independent_noise_optimum_upper_bound_nats": null
+    },
+    {
+      "scenario": "correlated",
+      "budget": 6,
+      "method": "aware_greedy",
+      "sensors": [
+        0,
+        9,
+        6,
+        11,
+        5,
+        4
+      ],
+      "locations": [
+        -1.0,
+        0.65,
+        0.05,
+        1.0,
+        -0.05,
+        -0.25
+      ],
+      "noise_groups": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        1
+      ],
+      "information_nats_under_true_noise": 5.175059941178368,
+      "exact_optimal_gap_nats": 0.06717352224758688,
+      "mean_latent_field_variance": 0.08318376250744572,
+      "max_latent_field_variance": 0.09823597483160879,
+      "uniform_subset_mean_information_nats": 4.383159121332377,
+      "independent_noise_optimum_upper_bound_nats": null
+    },
+    {
+      "scenario": "correlated",
+      "budget": 6,
+      "method": "diagonal_greedy",
+      "sensors": [
+        0,
+        11,
+        5,
+        6,
+        10,
+        1
+      ],
+      "locations": [
+        -1.0,
+        1.0,
+        -0.05,
+        0.05,
+        0.85,
+        -0.85
+      ],
+      "noise_groups": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        1
+      ],
+      "information_nats_under_true_noise": 5.198125492613399,
+      "exact_optimal_gap_nats": 0.04410797081255602,
+      "mean_latent_field_variance": 0.08386834067207022,
+      "max_latent_field_variance": 0.09196751339748813,
+      "uniform_subset_mean_information_nats": 4.383159121332377,
+      "independent_noise_optimum_upper_bound_nats": null
+    }
+  ],
+  "correlated_noise_counterexample": {
+    "first_information": 0.3465735902799727,
+    "second_information_alone": 0.3465735902799727,
+    "joint_information": 1.5222612188617117,
+    "second_marginal_after_first": 1.175687628581739,
+    "diminishing_returns_holds": false
+  },
+  "prior_predictive_budget_4": {
+    "exact_aware": {
+      "sensors": [
+        0,
+        5,
+        9,
+        11
+      ],
+      "assumed_noise": "correlated",
+      "reported_mean_field_variance": 0.11988904820512387,
+      "analytic_mean_squared_error": 0.11988904820512389,
+      "empirical_mean_squared_error": {
+        "estimate": 0.11697889239646769,
+        "mcse": 0.0022618176488763474
+      },
+      "marginal_90_percent_coverage": {
+        "estimate": 0.8981287128712871,
+        "mcse": 0.003834352325201223
+      }
+    },
+    "greedy_aware": {
+      "sensors": [
+        0,
+        9,
+        6,
+        11
+      ],
+      "assumed_noise": "correlated",
+      "reported_mean_field_variance": 0.14253713224557427,
+      "analytic_mean_squared_error": 0.14253713224557432,
+      "empirical_mean_squared_error": {
+        "estimate": 0.13770253350910838,
+        "mcse": 0.002557524660106547
+      },
+      "marginal_90_percent_coverage": {
+        "estimate": 0.9021980198019802,
+        "mcse": 0.003570915838584832
+      }
+    },
+    "diagonal_design_aware_inference": {
+      "sensors": [
+        0,
+        11,
+        5,
+        6
+      ],
+      "assumed_noise": "correlated",
+      "reported_mean_field_variance": 0.12145162255713214,
+      "analytic_mean_squared_error": 0.12145162255713213,
+      "empirical_mean_squared_error": {
+        "estimate": 0.11790232738363024,
+        "mcse": 0.002233996525999781
+      },
+      "marginal_90_percent_coverage": {
+        "estimate": 0.8988831683168317,
+        "mcse": 0.0037356525446051374
+      }
+    },
+    "diagonal_design_diagonal_inference": {
+      "sensors": [
+        0,
+        11,
+        5,
+        6
+      ],
+      "assumed_noise": "diagonal",
+      "reported_mean_field_variance": 0.11929440413286321,
+      "analytic_mean_squared_error": 0.1579353323250926,
+      "empirical_mean_squared_error": {
+        "estimate": 0.15403572042761227,
+        "mcse": 0.0024003291070662115
+      },
+      "marginal_90_percent_coverage": {
+        "estimate": 0.8478514851485149,
+        "mcse": 0.0036655368824628567
+      }
+    }
+  }
+}
